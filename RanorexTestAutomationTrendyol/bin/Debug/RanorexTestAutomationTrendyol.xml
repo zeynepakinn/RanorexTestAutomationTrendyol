@@ -1,0 +1,1850 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RanorexTestAutomationTrendyol</name>
+    </assembly>
+    <members>
+        <member name="T:RanorexTestAutomationTrendyol.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository">
+            <summary>
+            The class representing the RanorexTestAutomationTrendyolRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RanorexTestAutomationTrendyolRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.ArtPuzzleDueşSokağı500ParcaPuzzle">
+            <summary>
+            The ArtPuzzleDueşSokağı500ParcaPuzzle folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.YeniSekme">
+            <summary>
+            The YeniSekme folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.BackstopWindow">
+            <summary>
+            The BackstopWindow folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.DESKTOPE1ASG9D">
+            <summary>
+            The DESKTOPE1ASG9D folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.SepetimTrendyolGoogleChrome">
+            <summary>
+            The SepetimTrendyolGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepository.TaskToBeDoneAsTestAutomationWith">
+            <summary>
+            The TaskToBeDoneAsTestAutomationWith folder.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInput">
+            <summary>
+            The RegisterPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInputInfo">
+            <summary>
+            The RegisterPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.KişiselVerileriminIşlenmesineYoenelik">
+            <summary>
+            The KişiselVerileriminIşlenmesineYoenelik item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.KişiselVerileriminIşlenmesineYoenelikInfo">
+            <summary>
+            The KişiselVerileriminIşlenmesineYoenelik item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmail">
+            <summary>
+            The RegisterEmail item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmailInfo">
+            <summary>
+            The RegisterEmail item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PbBasketItem">
+            <summary>
+            The PbBasketItem item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PbBasketItemInfo">
+            <summary>
+            The PbBasketItem item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PbBasketItem1">
+            <summary>
+            The PbBasketItem1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PbBasketItem1Info">
+            <summary>
+            The PbBasketItem1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.IHeartWdFvrtBtn">
+            <summary>
+            The IHeartWdFvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.IHeartWdFvrtBtnInfo">
+            <summary>
+            The IHeartWdFvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.DueşSokağı500ParcaPuzzle">
+            <summary>
+            The DueşSokağı500ParcaPuzzle item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.DueşSokağı500ParcaPuzzleInfo">
+            <summary>
+            The DueşSokağı500ParcaPuzzle item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrdctDescCntnrTtlW">
+            <summary>
+            The PrdctDescCntnrTtlW item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrdctDescCntnrTtlWInfo">
+            <summary>
+            The PrdctDescCntnrTtlW item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy296ProductMed">
+            <summary>
+            The HttpsCdnDsmcdnComTy296ProductMed item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy296ProductMedInfo">
+            <summary>
+            The HttpsCdnDsmcdnComTy296ProductMed item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SomeImgTag">
+            <summary>
+            The SomeImgTag item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SomeImgTagInfo">
+            <summary>
+            The SomeImgTag item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
+            <summary>
+            The LoginEmail item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmailInfo">
+            <summary>
+            The LoginEmail item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInput">
+            <summary>
+            The LoginPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInputInfo">
+            <summary>
+            The LoginPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Isimsizx4150x140KağıtUEzerineKurşu">
+            <summary>
+            The Isimsizx4150x140KağıtUEzerineKurşu item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Isimsizx4150x140KağıtUEzerineKurşuInfo">
+            <summary>
+            The Isimsizx4150x140KağıtUEzerineKurşu item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.AkrilikBoya140mlSuBazlıParlakVerni">
+            <summary>
+            The AkrilikBoya140mlSuBazlıParlakVerni item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.AkrilikBoya140mlSuBazlıParlakVerniInfo">
+            <summary>
+            The AkrilikBoya140mlSuBazlıParlakVerni item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolSanat">
+            <summary>
+            The TrendyolSanat item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolSanatInfo">
+            <summary>
+            The TrendyolSanat item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlayBody">
+            <summary>
+            The ImageOverlayBody item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlayBodyInfo">
+            <summary>
+            The ImageOverlayBody item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1">
+            <summary>
+            The FvrtBtn1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1Info">
+            <summary>
+            The FvrtBtn1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn2">
+            <summary>
+            The FvrtBtn2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn2Info">
+            <summary>
+            The FvrtBtn2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn3">
+            <summary>
+            The FvrtBtn3 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn3Info">
+            <summary>
+            The FvrtBtn3 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize2002001">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize2002001 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize2002001Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize2002001 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn4">
+            <summary>
+            The FvrtBtn4 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn4Info">
+            <summary>
+            The FvrtBtn4 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Tablo">
+            <summary>
+            The Tablo item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TabloInfo">
+            <summary>
+            The Tablo item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn5">
+            <summary>
+            The FvrtBtn5 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn5Info">
+            <summary>
+            The FvrtBtn5 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrdctDescCntnrWrppr">
+            <summary>
+            The PrdctDescCntnrWrppr item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrdctDescCntnrWrpprInfo">
+            <summary>
+            The PrdctDescCntnrWrppr item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Saat">
+            <summary>
+            The Saat item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SaatInfo">
+            <summary>
+            The Saat item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.KadınKolSaati">
+            <summary>
+            The KadınKolSaati item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.KadınKolSaatiInfo">
+            <summary>
+            The KadınKolSaati item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.DekoratifAksesuar">
+            <summary>
+            The DekoratifAksesuar item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.DekoratifAksesuarInfo">
+            <summary>
+            The DekoratifAksesuar item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrNmCt">
+            <summary>
+            The PrNmCt item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrNmCtInfo">
+            <summary>
+            The PrNmCt item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.MiTVStick1080PAndroidTVMediaPlaye">
+            <summary>
+            The MiTVStick1080PAndroidTVMediaPlaye item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.MiTVStick1080PAndroidTVMediaPlayeInfo">
+            <summary>
+            The MiTVStick1080PAndroidTVMediaPlaye item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ButtonTagFv">
+            <summary>
+            The ButtonTagFv item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ButtonTagFvInfo">
+            <summary>
+            The ButtonTagFv item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.MiTVStick1080PAndroidTVMediaPlaye1">
+            <summary>
+            The MiTVStick1080PAndroidTVMediaPlaye1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.MiTVStick1080PAndroidTVMediaPlaye1Info">
+            <summary>
+            The MiTVStick1080PAndroidTVMediaPlaye1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolCollectionYeniSezonFırsatl">
+            <summary>
+            The TrendyolCollectionYeniSezonFırsatl item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolCollectionYeniSezonFırsatlInfo">
+            <summary>
+            The TrendyolCollectionYeniSezonFırsatl item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ProductBrandDescriptionTwoLineText">
+            <summary>
+            The ProductBrandDescriptionTwoLineText item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.ProductBrandDescriptionTwoLineTextInfo">
+            <summary>
+            The ProductBrandDescriptionTwoLineText item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.CokRenkli4luePaketOErmeCorapTWOSS2">
+            <summary>
+            The CokRenkli4luePaketOErmeCorapTWOSS2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.CokRenkli4luePaketOErmeCorapTWOSS2Info">
+            <summary>
+            The CokRenkli4luePaketOErmeCorapTWOSS2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FenomenlerinKozmetikSecimleri">
+            <summary>
+            The FenomenlerinKozmetikSecimleri item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FenomenlerinKozmetikSecimleriInfo">
+            <summary>
+            The FenomenlerinKozmetikSecimleri item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn6">
+            <summary>
+            The FvrtBtn6 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn6Info">
+            <summary>
+            The FvrtBtn6 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn7">
+            <summary>
+            The FvrtBtn7 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn7Info">
+            <summary>
+            The FvrtBtn7 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn8">
+            <summary>
+            The FvrtBtn8 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn8Info">
+            <summary>
+            The FvrtBtn8 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize415622">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize415622 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize415622Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize415622 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle2">
+            <summary>
+            The SepeteEkle2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle2Info">
+            <summary>
+            The SepeteEkle2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.Trendyol">
+            <summary>
+            The Trendyol item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.TrendyolInfo">
+            <summary>
+            The Trendyol item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PrdctCntnrWrppr">
+            <summary>
+            The PrdctCntnrWrppr folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.AccountNavigationWrapper">
+            <summary>
+            The AccountNavigationWrapper folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.PbContainer">
+            <summary>
+            The PbContainer folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.LoginRegister">
+            <summary>
+            The LoginRegister folder.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.CinsiyetOpsiyonel">
+            <summary>
+            The CinsiyetOpsiyonel item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.CinsiyetOpsiyonelInfo">
+            <summary>
+            The CinsiyetOpsiyonel item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EPosta">
+            <summary>
+            The EPosta item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.EPostaInfo">
+            <summary>
+            The EPosta item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QButtonQButtonMediumQFluidQPrima">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.QButtonQButtonMediumQFluidQPrimaInfo">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Şifre">
+            <summary>
+            The Şifre item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.ŞifreInfo">
+            <summary>
+            The Şifre item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.Kadın">
+            <summary>
+            The Kadın item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.KadınInfo">
+            <summary>
+            The Kadın item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.BorderLeftNoneMaleQButtonQButton">
+            <summary>
+            The BorderLeftNoneMaleQButtonQButton item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.BorderLeftNoneMaleQButtonQButtonInfo">
+            <summary>
+            The BorderLeftNoneMaleQButtonQButton item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.KampanyalardanHaberdarOlabilmemIcinK">
+            <summary>
+            The KampanyalardanHaberdarOlabilmemIcinK item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.KampanyalardanHaberdarOlabilmemIcinKInfo">
+            <summary>
+            The KampanyalardanHaberdarOlabilmemIcinK item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder">
+            <summary>
+            The PrdctCntnrWrpprFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PrdctCntnrWrppr  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEklendi">
+            <summary>
+            The SepeteEklendi item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEklendiInfo">
+            <summary>
+            The SepeteEklendi item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.FvrtBtn1">
+            <summary>
+            The FvrtBtn1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.FvrtBtn1Info">
+            <summary>
+            The FvrtBtn1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.DekoratifSoyutAltınGeyikVeKuşlarSu">
+            <summary>
+            The DekoratifSoyutAltınGeyikVeKuşlarSu item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.DekoratifSoyutAltınGeyikVeKuşlarSuInfo">
+            <summary>
+            The DekoratifSoyutAltınGeyikVeKuşlarSu item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.KadınKolSaati13324M02">
+            <summary>
+            The KadınKolSaati13324M02 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PrdctCntnrWrpprFolder.KadınKolSaati13324M02Info">
+            <summary>
+            The KadınKolSaati13324M02 item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder">
+            <summary>
+            The AccountNavigationWrapperFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AccountNavigationWrapper  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.Favorilerim">
+            <summary>
+            The Favorilerim item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.FavorilerimInfo">
+            <summary>
+            The Favorilerim item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.BasketPreviewContainerVisible">
+            <summary>
+            The BasketPreviewContainerVisible item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.BasketPreviewContainerVisibleInfo">
+            <summary>
+            The BasketPreviewContainerVisible item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.SepeteGit">
+            <summary>
+            The SepeteGit item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.SepeteGitInfo">
+            <summary>
+            The SepeteGit item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.Link">
+            <summary>
+            The Link item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.LinkInfo">
+            <summary>
+            The Link item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.HttpsWwwTrendyolComSepet">
+            <summary>
+            The HttpsWwwTrendyolComSepet item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.HttpsWwwTrendyolComSepetInfo">
+            <summary>
+            The HttpsWwwTrendyolComSepet item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.IUserOrange">
+            <summary>
+            The IUserOrange item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.AccountNavigationWrapperFolder.IUserOrangeInfo">
+            <summary>
+            The IUserOrange item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder">
+            <summary>
+            The PbContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PbContainer  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.HttpsWwwTrendyolComSepetimOdeme1">
+            <summary>
+            The HttpsWwwTrendyolComSepetimOdeme1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.HttpsWwwTrendyolComSepetimOdeme1Info">
+            <summary>
+            The HttpsWwwTrendyolComSepetimOdeme1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.HttpsWwwTrendyolComSepetimOdeme">
+            <summary>
+            The HttpsWwwTrendyolComSepetimOdeme item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.HttpsWwwTrendyolComSepetimOdemeInfo">
+            <summary>
+            The HttpsWwwTrendyolComSepetimOdeme item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.PbHeaderWrapper">
+            <summary>
+            The PbHeaderWrapper item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.PbHeaderWrapperInfo">
+            <summary>
+            The PbHeaderWrapper item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.PbBasketItem2">
+            <summary>
+            The PbBasketItem2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.PbBasketItem2Info">
+            <summary>
+            The PbBasketItem2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.PbContainerFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder">
+            <summary>
+            The LoginRegisterFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginRegister  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.BorderRightNoneFemaleQButtonQButt">
+            <summary>
+            The BorderRightNoneFemaleQButtonQButt item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.BorderRightNoneFemaleQButtonQButtInfo">
+            <summary>
+            The BorderRightNoneFemaleQButtonQButt item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.LrContainer">
+            <summary>
+            The LrContainer item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.LrContainerInfo">
+            <summary>
+            The LrContainer item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyI">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyIInfo">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Fill1">
+            <summary>
+            The Fill1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Fill1Info">
+            <summary>
+            The Fill1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Fill11">
+            <summary>
+            The Fill11 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Fill11Info">
+            <summary>
+            The Fill11 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyCheck">
+            <summary>
+            The TyCheck item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyCheckInfo">
+            <summary>
+            The TyCheck item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Şifre">
+            <summary>
+            The Şifre item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.ŞifreInfo">
+            <summary>
+            The Şifre item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.Kadın">
+            <summary>
+            The Kadın item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.KadınInfo">
+            <summary>
+            The Kadın item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyI1">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyI1Info">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI1 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyI2">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.TyBgBeigeTyBorderedTyCheckboxTyI2Info">
+            <summary>
+            The TyBgBeigeTyBorderedTyCheckboxTyI2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.UEyeOl1">
+            <summary>
+            The UEyeOl1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.LoginRegisterFolder.UEyeOl1Info">
+            <summary>
+            The UEyeOl1 item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.GoogleChrome1CalışanPencere">
+            <summary>
+            The GoogleChrome1CalışanPencere item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.GoogleChrome1CalışanPencereInfo">
+            <summary>
+            The GoogleChrome1CalışanPencere item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.Word1CalışanPencere">
+            <summary>
+            The Word1CalışanPencere item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ExplorerAppFolder.Word1CalışanPencereInfo">
+            <summary>
+            The Word1CalışanPencere item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder">
+            <summary>
+            The ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ArtPuzzleDueşSokağı500ParcaPuzzle  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder.Geri">
+            <summary>
+            The Geri item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ArtPuzzleDueşSokağı500ParcaPuzzleAppFolder.GeriInfo">
+            <summary>
+            The Geri item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.Explorer1AppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.YeniSekmeAppFolder">
+            <summary>
+            The YeniSekmeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.YeniSekmeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new YeniSekme  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.YeniSekmeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.YeniSekmeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.BackstopWindowAppFolder">
+            <summary>
+            The BackstopWindowAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.BackstopWindowAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BackstopWindow  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.BackstopWindowAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.BackstopWindowAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder">
+            <summary>
+            The DESKTOPE1ASG9DAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DESKTOPE1ASG9D  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder.DESKTOPE1ASG9D">
+            <summary>
+            The DESKTOPE1ASG9D item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.DESKTOPE1ASG9DAppFolder.DESKTOPE1ASG9DInfo">
+            <summary>
+            The DESKTOPE1ASG9D item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder">
+            <summary>
+            The SepetimTrendyolGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SepetimTrendyolGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Kapat">
+            <summary>
+            The Kapat item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.KapatInfo">
+            <summary>
+            The Kapat item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder">
+            <summary>
+            The TaskToBeDoneAsTestAutomationWithAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TaskToBeDoneAsTestAutomationWith  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder.Body">
+            <summary>
+            The Body item.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.TaskToBeDoneAsTestAutomationWithAppFolder.BodyInfo">
+            <summary>
+            The Body item info.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording1.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording1x">
+             <summary>
+            The Recording1x recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording1x.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1x.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording1x.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1x.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording1x.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1x.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording1x.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording2.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording3.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording4.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording5">
+             <summary>
+            The Recording5 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording5.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording6">
+             <summary>
+            The Recording6 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording6.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording6.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording6.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording6x">
+             <summary>
+            The Recording6x recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording6x.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6x.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording6x.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6x.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording6x.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6x.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording6x.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording7">
+             <summary>
+            The Recording7 recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording7.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording7.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording7.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexTestAutomationTrendyol.Recording7x">
+             <summary>
+            The Recording7x recording.
+             </summary>
+        </member>
+        <member name="F:RanorexTestAutomationTrendyol.Recording7x.repo">
+            <summary>
+            Holds an instance of the RanorexTestAutomationTrendyolRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7x.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexTestAutomationTrendyol.Recording7x.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7x.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexTestAutomationTrendyol.Recording7x.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7x.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexTestAutomationTrendyol.Recording7x.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

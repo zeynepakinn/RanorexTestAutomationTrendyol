@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="43.95s"
+		durationms="43946"
+		type="root"
+		rid="1584a2f260220d50"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="zeyne"
+		rxversion="10.1.7.0"
+		host="DESKTOP-E1ASG9D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="28.04.2022 18:17:51"
+		timestampiso="2022-04-28T15:17:51"
+		endtime="28.04.2022 18:18:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording6x">
+		<detail>
+			Recording6x
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.086"
+			timeRelativeToTestModuleStartTime="00:07.086"
+			timeWallClock="18:17:58"
+			time="00:07.086"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle2' at 25;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[3]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[3]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.SepeteEkle2"
+				id="03a4fb5c1d1e457ab0e60f35c3a77f5a"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.942"
+			timeRelativeToTestModuleStartTime="00:43.942"
+			timeWallClock="18:18:35"
+			time="00:43.942"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

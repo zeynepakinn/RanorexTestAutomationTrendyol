@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="20.64s"
+		durationms="20641"
+		type="root"
+		rid="d88e65d88954c7d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="zeyne"
+		rxversion="10.1.7.0"
+		host="DESKTOP-E1ASG9D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="28.04.2022 18:25:34"
+		timestampiso="2022-04-28T15:25:34"
+		endtime="28.04.2022 18:25:55"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording7x">
+		<detail>
+			Recording7x
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.208"
+			timeRelativeToTestModuleStartTime="00:07.208"
+			timeWallClock="18:25:41"
+			time="00:07.208"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ApplicationUnderTest.AccountNavigationWrapper.Hesabım' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']"
+				itempath="div[1]/?/?/p[@innertext='Hesabım']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.AccountNavigationWrapper.Hesabım"
+				id="423a8ad2e68b49f293c73535721d3d3a"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording7x.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.580"
+			timeRelativeToTestModuleStartTime="00:14.580"
+			timeWallClock="18:25:48"
+			time="00:14.580"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AccountNavigationWrapper.CıkışYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[9]/p[@innertext='Çıkış Yap']"
+				itempath="div[1]/div[2]/div/a[9]/p[@innertext='Çıkış Yap']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.AccountNavigationWrapper.CıkışYap"
+				id="cc1df31d36334bc28a9b8e415e90ac21"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording7x.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

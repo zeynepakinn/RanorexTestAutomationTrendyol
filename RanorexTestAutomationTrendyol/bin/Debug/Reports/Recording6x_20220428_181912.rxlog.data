@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="30.2s"
+		durationms="30202"
+		type="root"
+		rid="339f052dab1d5b7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="zeyne"
+		rxversion="10.1.7.0"
+		host="DESKTOP-E1ASG9D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="28.04.2022 18:19:19"
+		timestampiso="2022-04-28T15:19:19"
+		endtime="28.04.2022 18:19:49"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording6x">
+		<detail>
+			Recording6x
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.177"
+			timeRelativeToTestModuleStartTime="00:10.177"
+			timeWallClock="18:19:29"
+			time="00:10.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AccountNavigationWrapper.Favorilerim' at 29;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				itempath="a[@href>'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.AccountNavigationWrapper.Favorilerim"
+				id="e871d24e8a154ff6be2dd3754a1e4349"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.296"
+			timeRelativeToTestModuleStartTime="00:18.296"
+			timeWallClock="18:19:37"
+			time="00:18.296"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9675ed97\Recordin_48333edf_rxlog.jpg"
+			errthumb="images_Recordin_9675ed97\Recordin_48333edf_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.508"
+			timeRelativeToTestModuleStartTime="00:19.508"
+			timeWallClock="18:19:38"
+			time="00:19.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle2' at 25;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[3]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[3]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.SepeteEkle2"
+				id="03a4fb5c1d1e457ab0e60f35c3a77f5a"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.699"
+			timeRelativeToTestModuleStartTime="00:25.699"
+			timeWallClock="18:19:44"
+			time="00:25.699"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle1' at 45;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-gw-favorites']/div/div[3]/div/div[2]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				itempath=".//div[#'account-gw-favorites']/div/div[3]/div/div[2]/div[3]/?/?/span[@innertext='Sepete Ekle']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.SepeteEkle1"
+				id="4daa5663050a4d969b4fb3ea3a7c77ec"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.980"
+			timeRelativeToTestModuleStartTime="00:27.980"
+			timeWallClock="18:19:47"
+			time="00:27.980"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Sepetim' at 24;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.Sepetim"
+				id="748f8d94575b4d5cbd85b3de56e0deae"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording6x.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

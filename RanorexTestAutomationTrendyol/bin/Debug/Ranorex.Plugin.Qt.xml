@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Qt</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.QtElement">
+            <summary>
+            The element is a part of a Qt application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtElement.PerformClick">
+            <summary>
+            Sends a mouse left button click event to the target.
+            </summary>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtElement"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtElement.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtElement"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.QtElement.AccessibleDescription">
+            <summary>
+            The Accessibility description assigned to the Qt Element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.AccessibleName">
+            <summary>
+            The Accessibility name assigned to the Qt Element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.BaseType">
+            <summary>
+            The class name of the base component in the Qt libraries.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.InternalId">
+            <summary>
+            The (unstable) internal id used to identify the Qt element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.Name">
+            <summary>
+            The name of the Qt element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.ToolTip">
+            <summary>
+            The tooltip text set on the widget.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtElement.Type">
+            <summary>
+            The class name of the Qt component.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtElement.GetPropertyValue(System.String)">
+            <summary>
+            Gets the property value of the specified Qt object.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <returns>The value of the property.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.InvokeMethod(System.String)">
+            <summary>
+            Invokes a method with no arguments on the specified Qt object.
+            </summary>
+            <param name="name">The name of the method.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.PerformClick(System.Int32,System.Int32)">
+            <summary>
+            Sends a mouse left button click event on the target.
+            </summary>
+            <param name="x">The x client coordinates.</param>
+            <param name="y">The y client coordinates.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.SetPropertyValue(System.String,System.Object)">
+            <summary>
+            Sets the property value of the specified Qt object.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="value">The value of the property to set.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.QtElement.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtElement.op_Implicit(System.String)~Ranorex.QtElement">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.op_Implicit(Ranorex.Core.Element)~Ranorex.QtElement">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtElement.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.QtItem">
+            <summary>
+            The item is a part of a Qt AbstractItemModel container.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtItem.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtItem"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtItem.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtItem"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.QtItem.AccessibleDescription">
+            <summary>
+            The accessible description set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.AccessibleText">
+            <summary>
+            The accessible text set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.BackColor">
+            <summary>
+            The items' backgorund color.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.EditableText">
+            <summary>
+            The editor text set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.StatusTip">
+            <summary>
+            The status tip text set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.TextColor">
+            <summary>
+            The items' text color.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.ToolTip">
+            <summary>
+            The tool tip text set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.UserData">
+            <summary>
+            Custom user data set on the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtItem.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtItem.op_Implicit(System.String)~Ranorex.QtItem">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtItem.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtItem.op_Implicit(Ranorex.Core.Element)~Ranorex.QtItem">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtItem.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.QtWindow">
+            <summary>
+            The element is Qt application window.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtWindow.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtWindow"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtWindow.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.QtWindow"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.QtWindow.AppName">
+            <summary>
+            The name of the application this window belongs to.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtWindow.AppVersion">
+            <summary>
+            The version of the application this window belongs to.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtWindow.CurrentTooltip">
+            <summary>
+            The current tooltip text if a tooltip is visible.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtWindow.QtVersion">
+            <summary>
+            The Qt version of the application this window belongs to.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtWindow.RanorexLibVersion">
+            <summary>
+            The version of the Ranorex Qt automation library.
+            </summary>
+        </member>
+        <member name="P:Ranorex.QtWindow.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.QtWindow.op_Implicit(System.String)~Ranorex.QtWindow">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtWindow.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The QtWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtWindow.op_Implicit(Ranorex.Core.Element)~Ranorex.QtWindow">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.QtWindow.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The QtWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.Plugin.QtCapIcons">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtCapIcons.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtCapIcons.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtCapIcons.Qt_Icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtFlavor.UseDesktopImageCapture">
+            <summary>
+            Defines whether capturing screenshots from elements of this flavor should use the desktop capturing method.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.QtWebFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+    </members>
+</doc>

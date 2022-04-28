@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="61fe42c3-4585-462c-827b-ea49d71d0750"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="RanorexTestAutomationTrendyol">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="ef16b86c-fe84-4f0f-b8eb-6b4aeaef98cc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="db5287c2-ba40-4ae3-b52e-2c3a81a1f821"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f6b7f39b-d73f-4525-a799-29dbe688c6bf"
+	name="RanorexTestAutomationTrendyolRepository"
+	relativepath="RanorexTestAutomationTrendyolRepository.rxrep">
+		<codegen
+		classname="RanorexTestAutomationTrendyolRepository"
+		namespace="RanorexTestAutomationTrendyol">
+		</codegen>
+		<rootfolder
+		id="ebc32c2d-281c-465c-b2b8-41ed0e4133a8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

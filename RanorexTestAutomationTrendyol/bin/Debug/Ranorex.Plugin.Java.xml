@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Java</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.JavaApplet">
+            <summary>
+            This element is a Java Applet.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaApplet.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaApplet"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaApplet.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaApplet"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.JavaApplet.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaApplet.op_Implicit(System.String)~Ranorex.JavaApplet">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaApplet.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaApplet.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaApplet.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaApplet.op_Implicit(Ranorex.Core.Element)~Ranorex.JavaApplet">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaApplet.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaApplet.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaApplet.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.JavaElement">
+            <summary>
+            The element is a part of a Java application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaElement.InvokeMethod(System.String,System.Object[])">
+            <summary>
+            Invokes a public method on the remote Java object represented by this Element.
+            </summary>
+            <param name="methodName">The name of method to invoke.</param>
+            <param name="args">A list of method arguments. (Supports string,int,long,bool,null).</param>
+            <returns>The value returned by the method or null if method has "void" return type.</returns>
+        </member>
+        <member name="M:Ranorex.JavaElement.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaElement"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaElement.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaElement"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.JavaElement.AccessibleDescription">
+            <summary>
+            The accessibility description of the Java component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.AccessibleName">
+            <summary>
+            The accessibility name of the Java component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.BaseType">
+            <summary>
+            The full type name of the base Java component in the JRE.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.FullType">
+            <summary>
+            The full type name of the Java component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.Name">
+            <summary>
+            The name of the Java component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.RanorexLibVersion">
+            <summary>
+            The version of the Ranorex Java automation library.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.StyleClass">
+            <summary>
+            Zero or more FX style classes assigned to the Java FX Node.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaElement.Type">
+            <summary>
+            The class name of the Java component.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaElement.GetPropertyValue(System.String)">
+            <summary>
+            Gets the property value of the specified Java object.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <returns>The value of the property.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.JavaElement.InvokeMethod(System.String)">
+            <summary>
+            Invokes a method with no arguments on the specified Java object.
+            </summary>
+            <param name="name">The name of the method.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.JavaElement.SetPropertyValue(System.String,System.Object)">
+            <summary>
+            Sets the property value of the specified Java object.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="value">The value of the property to set.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.JavaElement.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaElement.op_Implicit(System.String)~Ranorex.JavaElement">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaElement.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaElement.op_Implicit(Ranorex.Core.Element)~Ranorex.JavaElement">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaElement.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.JavaItem">
+            <summary>
+            The element is a part of a Java application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaItem.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaItem"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaItem.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.JavaItem"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.JavaItem.Expanded">
+            <summary>
+            The expansion state of the item.
+            </summary>
+            <exception cref="T:Ranorex.SetAttributeFailedException">Thrown if setting the attribute value failed.</exception>
+        </member>
+        <member name="P:Ranorex.JavaItem.ItemId">
+            <summary>
+            A generic identifier for this item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.JavaItem.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.JavaItem.op_Implicit(System.String)~Ranorex.JavaItem">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaItem.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The JavaItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaItem.op_Implicit(Ranorex.Core.Element)~Ranorex.JavaItem">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.JavaItem.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The JavaItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.Plugin.JavaCapIcons">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.JavaCapIcons.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.JavaCapIcons.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.JavaCapIcons.JavaLogo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.JavaFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.JavaFlavor.UseDesktopImageCapture">
+            <summary>
+            Defines whether capturing screenshots from elements of this flavor should use the desktop capturing method.
+            </summary>
+        </member>
+        <member name="T:Ranorex.Plugin.SwtStyle">
+            <summary>
+            SWT style flags, copied from SWT.java
+            </summary>
+        </member>
+    </members>
+</doc>

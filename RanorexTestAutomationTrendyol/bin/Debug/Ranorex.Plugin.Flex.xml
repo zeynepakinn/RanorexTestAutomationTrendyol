@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Flex</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.Plugin.FlexCapIcons">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.FlexCapIcons.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.FlexCapIcons.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.FlexCapIcons.air_logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.FlexCapIcons.flex_logo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.FlexFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+        <member name="T:Ranorex.FlexElement">
+            <summary>
+            The element is a part of a flash application.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.Item(System.String)">
+            <summary>
+            Gets the attribute with the specified name.
+            </summary>
+            <value>The attribute value or null if nothing was found for that name.</value>
+            <remarks>When setting an attribute, an explicit type can be specified by enclosing the value in a &lt;stringgt; or
+            &lt;numbergt; tag. For booleans use &lt;truegt; or &lt;falsegt;
+            </remarks>
+        </member>
+        <member name="M:Ranorex.FlexElement.GetPropertyValue(System.String)">
+            <summary>
+            Gets the string value of the specified UIComponent property.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <returns>The value of the property.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.GetStyle(System.String)">
+            <summary>
+            Gets the string value of the specified UIComponent style.
+            </summary>
+            <param name="name">The name of the style.</param>
+            <returns>The contents of the requested style.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexElement"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexElement.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexElement"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.FlexElement.AutomationName">
+            <summary>
+            The automation name of the flex element, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.AutomationValue">
+            <summary>
+            The automation value of the flex element, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.BaseType">
+            <summary>
+            The full type name of the internal base class of the flex element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.DisplayName">
+            <summary>
+            The instance name for non-flex objects.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.FlexUid">
+            <summary>
+            The unique identifier of the flex element, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.FullType">
+            <summary>
+            The full type name of the flex element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.Id">
+            <summary>
+            The identifier of the flex element used in MXML, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexElement.Type">
+            <summary>
+            The type name of the flex element.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexElement.GetPropertyValue(System.String,System.String)">
+            <summary>
+            Gets the string value of the specified UIComponent property.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="propertyname">The name of the sub-property, can be null.</param>
+            <returns>The value of the property.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.GetStyle(System.String,System.String)">
+            <summary>
+            Gets the string value of the specified UIComponent style.
+            </summary>
+            <param name="name">The name of the style.</param>
+            <param name="propertyname">The name of the sub-property, can be null.</param>
+            <returns>The contents of the requested style.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.SetPropertyValue(System.String,System.String)">
+            <summary>
+            Sets the value of the specified UIComponent property.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="value">The string value of the property to set.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.SetStyle(System.String,System.String)">
+            <summary>
+            Sets the string value of the specified UIComponent style.
+            </summary>
+            <param name="name">The name of the style.</param>
+            <param name="value">The string value of the style to set.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.FlexElement.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexElement.op_Implicit(System.String)~Ranorex.FlexElement">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.op_Implicit(Ranorex.Core.Element)~Ranorex.FlexElement">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexElement.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.FlexObject">
+            <summary>
+            This element is a flex or flash application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexObject.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexObject"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexObject.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexObject"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.FlexObject.FlashVersion">
+            <summary>
+            Flash player version information.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexObject.Id">
+            <summary>
+            The identifier of the flex object from HTML code.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexObject.Movie">
+            <summary>
+            The name of the SWF file used by the flash player.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexObject.RanorexLibVersion">
+            <summary>
+            The version of the Ranorex instrumentation library/preloader.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexObject.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexObject.op_Implicit(System.String)~Ranorex.FlexObject">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexObject.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexObject.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexObject.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexObject.op_Implicit(Ranorex.Core.Element)~Ranorex.FlexObject">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexObject.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexObject.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexObject.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.AirWindow">
+            <summary>
+            This element is an Adobe AIR application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AirWindow.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.AirWindow"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.AirWindow.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.AirWindow"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.AirWindow.AppId">
+            <summary>
+            The identifier of the air application.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AirWindow.Type">
+            <summary>
+            The window type.
+            </summary>
+        </member>
+        <member name="P:Ranorex.AirWindow.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.AirWindow.op_Implicit(System.String)~Ranorex.AirWindow">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The AirWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.AirWindow.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The AirWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.AirWindow.op_Implicit(Ranorex.Core.Element)~Ranorex.AirWindow">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The AirWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.AirWindow.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The AirWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.FlexDataItem">
+            <summary>
+            The element is a part of a flex data provider collection.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexDataItem"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.FlexDataItem"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.FlexDataItem.DataItemType">
+            <summary>
+            The full type name of the flex data item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexDataItem.Expandable">
+            <summary>
+            True if the item is expandable.
+            </summary>
+        </member>
+        <member name="P:Ranorex.FlexDataItem.Expanded">
+            <summary>
+            True if the item is currently expanded.
+            </summary>
+            <exception cref="T:Ranorex.SetAttributeFailedException">Thrown if setting the attribute value failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.GetPropertyValue(System.String)">
+            <summary>
+            Gets the string value of the specified item property.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <returns>The value of the property.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.SetPropertyValue(System.String,System.String)">
+            <summary>
+            Sets the value of the specified item property.
+            </summary>
+            <param name="name">The name of the property.</param>
+            <param name="value">The string value of the property to set.</param>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.FlexDataItem.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.op_Implicit(System.String)~Ranorex.FlexDataItem">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexDataItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The FlexDataItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.op_Implicit(Ranorex.Core.Element)~Ranorex.FlexDataItem">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexDataItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.FlexDataItem.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The FlexDataItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+    </members>
+</doc>

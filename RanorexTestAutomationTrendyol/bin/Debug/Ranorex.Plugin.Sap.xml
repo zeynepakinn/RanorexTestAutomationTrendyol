@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Sap</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.SapElement">
+            <summary>
+            The element is a part of an SAP GUI application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapElement.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapElement"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapElement.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapElement"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.SapElement.Changeable">
+            <summary>
+            Determines whether the component has user-changeable content.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.IconName">
+            <summary>
+            The name of the icon for this component, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.Modified">
+            <summary>
+            Determines whether the component has unsaved content.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.Name">
+            <summary>
+            The name of the SAP component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.Text">
+            <summary>
+            The text associated with this component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.Tooltip">
+            <summary>
+            The tooltip text associated with this component.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapElement.Type">
+            <summary>
+            The internal type of the SAP component.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapElement.ShowContextMenu">
+            <summary>
+            Opens the context menu associated with the component, if available.
+            </summary>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.SapElement.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapElement.op_Implicit(System.String)~Ranorex.SapElement">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapElement.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapElement.op_Implicit(Ranorex.Core.Element)~Ranorex.SapElement">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapElement.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.SapItem">
+            <summary>
+            The element represents an item in a SAP data-bound control.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapItem.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapItem"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapItem.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapItem"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.SapItem.ColId">
+            <summary>
+            The id of the column this item is assigned to, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.Color">
+            <summary>
+            The color of the item, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.Icon">
+            <summary>
+            The name of the icon assigned to this item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.ItemId">
+            <summary>
+            The id/key of the item, if available.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.State">
+            <summary>
+            The current item state, such as selected or checked.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.ToolTip">
+            <summary>
+            The tooltip text assigned to the item.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapItem.Type">
+            <summary>
+            The general type of the item.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapItem.PerformDoubleClick">
+            <summary>
+            Performs a simulated mouse-doubleclick on the item if supported.
+            </summary>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.SapItem.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapItem.op_Implicit(System.String)~Ranorex.SapItem">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapItem.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapItem.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapItem.op_Implicit(Ranorex.Core.Element)~Ranorex.SapItem">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapItem.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapItem.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.SapWindow">
+            <summary>
+            The element represents a top-level window of a SAP GUI application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapWindow.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapWindow"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapWindow.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.SapWindow"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.SapWindow.ApplicationServer">
+            <summary>
+            The host name of the SAP application server.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.Busy">
+            <summary>
+            Determines whether the server/transaction is currently busy processing.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.CodePage">
+            <summary>
+            The code page used for the connection.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.ConnectionDescription">
+            <summary>
+            The SAP connection description supplied by the user.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.ConnectionString">
+            <summary>
+            The SAP server connection string.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.Language">
+            <summary>
+            The currently active language for the connection to the SAP system.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.Program">
+            <summary>
+            The name of the program used to connect to the SAP system.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.SystemName">
+            <summary>
+            The name of the connected SAP system.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.TestToolMode">
+            <summary>
+            Determines whether the SAPGUI is in test tool mode.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.Transaction">
+            <summary>
+            The currently running SAP transaction.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.UserName">
+            <summary>
+            The user name used to log on to the SAP system.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.Version">
+            <summary>
+            The SAPGUI version number.
+            </summary>
+        </member>
+        <member name="P:Ranorex.SapWindow.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.SapWindow.op_Implicit(System.String)~Ranorex.SapWindow">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapWindow.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The SapWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapWindow.op_Implicit(Ranorex.Core.Element)~Ranorex.SapWindow">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.SapWindow.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The SapWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.Plugin.SapCapIcons">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.SapCapIcons.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.SapCapIcons.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.SapCapIcons.SapIcon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.SapFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Plugin.SapFlavor.UseDesktopImageCapture">
+            <summary>
+            Defines whether capturing screenshots from elements of this flavor should use the desktop capturing method.
+            </summary>
+        </member>
+    </members>
+</doc>

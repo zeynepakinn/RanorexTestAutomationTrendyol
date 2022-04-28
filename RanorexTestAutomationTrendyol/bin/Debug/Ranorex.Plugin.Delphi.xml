@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Delphi</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.DelphiElement">
+            <summary>
+            The element is a Delphi control.
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiElement.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.DelphiElement"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiElement.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.DelphiElement"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.DelphiElement.FullType">
+            <summary>
+            The full type of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiElement.FullTypeLineage">
+            <summary>
+            The full type lineage of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiElement.Name">
+            <summary>
+            The name of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiElement.Row">
+            <summary>
+            (DEBUG= The row of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiElement.Type">
+            <summary>
+            The type of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiElement.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiElement.op_Implicit(System.String)~Ranorex.DelphiElement">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The DelphiElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiElement.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The DelphiElement.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiElement.op_Implicit(Ranorex.Core.Element)~Ranorex.DelphiElement">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The DelphiElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiElement.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The DelphiElement.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.DelphiWindow">
+            <summary>
+            The element is a Delphi application window.
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.DelphiWindow"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.DelphiWindow"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.DelphiPlatform">
+            <summary>
+            The platform of the AUT.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.DelphiVersion">
+            <summary>
+            The compiler version of the AUT.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.FullType">
+            <summary>
+            The full type of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.FullTypeLineage">
+            <summary>
+            The full type lineage of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.Language">
+            <summary>
+            The platform of the AUT.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.Name">
+            <summary>
+            The name of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.Technology">
+            <summary>
+            The UI technology of the AUT.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.Type">
+            <summary>
+            The type of the delphi element.
+            </summary>
+        </member>
+        <member name="P:Ranorex.DelphiWindow.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.op_Implicit(System.String)~Ranorex.DelphiWindow">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The DelphiWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The DelphiWindow.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.op_Implicit(Ranorex.Core.Element)~Ranorex.DelphiWindow">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The DelphiWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.DelphiWindow.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The DelphiWindow.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="25.91s"
+		durationms="25913"
+		type="root"
+		rid="136161ff8b154fd0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="zeyne"
+		rxversion="10.1.7.0"
+		host="DESKTOP-E1ASG9D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="28.04.2022 16:56:01"
+		timestampiso="2022-04-28T13:56:01"
+		endtime="28.04.2022 16:56:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.988"
+			timeRelativeToTestModuleStartTime="00:04.988"
+			timeWallClock="16:56:06"
+			time="00:04.988"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AccountNavigationWrapper.GirişYap' at 15;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath="div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.AccountNavigationWrapper.GirişYap"
+				id="a5e4101ccc5240339a40b71a8ba38f1c"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.453"
+			timeRelativeToTestModuleStartTime="00:12.453"
+			timeWallClock="16:56:13"
+			time="00:12.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginRegister.UEyeOl' at 25;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]/span[@innertext='Üye Ol']"
+				itempath="div[2]/div/button[2]/span[@innertext='Üye Ol']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.LoginRegister.UEyeOl"
+				id="b94c07a0650245498adda7358810e1b0"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.017"
+			timeRelativeToTestModuleStartTime="00:14.017"
+			timeWallClock="16:56:15"
+			time="00:14.017"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterEmail' at 17;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterEmail"
+				id="794c83b61cc24dfdabdc39030c5e880e"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.316"
+			timeRelativeToTestModuleStartTime="00:15.316"
+			timeWallClock="16:56:16"
+			time="00:15.316"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'zeynepakin10{RMenu down}' with focus on 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterEmail"
+				id="794c83b61cc24dfdabdc39030c5e880e"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.518"
+			timeRelativeToTestModuleStartTime="00:16.518"
+			timeWallClock="16:56:17"
+			time="00:16.518"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+Alt+Q' Press with focus on 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterEmail"
+				id="794c83b61cc24dfdabdc39030c5e880e"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.429"
+			timeRelativeToTestModuleStartTime="00:17.429"
+			timeWallClock="16:56:18"
+			time="00:17.429"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey up}{RMenu up}gmail.com' with focus on 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterEmail"
+				id="794c83b61cc24dfdabdc39030c5e880e"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.506"
+			timeRelativeToTestModuleStartTime="00:18.506"
+			timeWallClock="16:56:19"
+			time="00:18.506"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RegisterPasswordInput' at 23;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="6808ac6c60e94f6faabdb7be0c216d44"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.794"
+			timeRelativeToTestModuleStartTime="00:19.794"
+			timeWallClock="16:56:21"
+			time="00:19.794"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'abcdhefg' with focus on 'ApplicationUnderTest.RegisterPasswordInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-password-input']"
+				itempath=".//input[#'register-password-input']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.RegisterPasswordInput"
+				id="6808ac6c60e94f6faabdb7be0c216d44"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.685"
+			timeRelativeToTestModuleStartTime="00:20.685"
+			timeWallClock="16:56:21"
+			time="00:20.685"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginRegister.Kadın' at 16;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.LoginRegister.Kadın"
+				id="4938558c6ed643e297323c1eedc1a114"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="115"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.994"
+			timeRelativeToTestModuleStartTime="00:21.994"
+			timeWallClock="16:56:23"
+			time="00:21.994"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginRegister.TyBgBeigeTyBorderedTyCheckboxTyI1' at 6;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[5]/div/div[1]/div/div"
+				itempath="div[3]/?/?/form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[5]/div/div[1]/div/div"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.LoginRegister.TyBgBeigeTyBorderedTyCheckboxTyI1"
+				id="61377ef3a9bf4332ba66ecb0a177c44d"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="119"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.275"
+			timeRelativeToTestModuleStartTime="00:23.275"
+			timeWallClock="16:56:24"
+			time="00:23.275"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginRegister.TyBgBeigeTyBorderedTyCheckboxTyI2' at 6;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/?/?/form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[6]/div/div[1]/div/div"
+				itempath="div[3]/?/?/form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/div[6]/div/div[1]/div/div"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.LoginRegister.TyBgBeigeTyBorderedTyCheckboxTyI2"
+				id="229810f301044ccfb72eb69fc50e8cca"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.607"
+			timeRelativeToTestModuleStartTime="00:24.607"
+			timeWallClock="16:56:25"
+			time="00:24.607"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LoginRegister.UEyeOl1' at 30;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/?/?/span[@innertext='Üye Ol']"
+				itempath=".//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2Fbutik%2Fliste%2F1%2Fkadin%3Fgads%3Dtrue%26tyutm_source%3Dgoogle%26tyutm_medium%3Dcpc%26tyutm_campaign%3Dnew_gl_trendyol_2_x%3Abrand-pure_excl_istanbul%26gclid%3DCjwKCAjw9qiTBhBbEiwAp-GE0ZsD1xHuBjhGvvgjh7tRw3knQbieG5nv8PsgO6PTL0VJLId2XTkKoBoC3ocQAvD_BwE']/?/?/span[@innertext='Üye Ol']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.LoginRegister.UEyeOl1"
+				id="9a91a164867f45559eb611cba13905e9"
+				timeout="90000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording1.cs"
+				codeline="127"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

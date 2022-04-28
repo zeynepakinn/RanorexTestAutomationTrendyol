@@ -1,0 +1,1063 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.Office</name>
+    </assembly>
+    <members>
+        <member name="T:Ranorex.ExcelApplication">
+            <summary>
+            Capability of an Excel Application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelApplication"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelApplication"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelApplication.Caption">
+            <summary>
+            Gets the Caption
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelApplication.Name">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelApplication.Ready">
+            <summary>
+            Gets the Ready value
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelApplication.Version">
+            <summary>
+            Gets the Version
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.GetExcelApplicationObject">
+            <summary>
+            Gets the Excel Application object instance for this instance of Excel.
+            </summary>
+            <returns>The Excel Application object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelApplication.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.op_Implicit(System.String)~Ranorex.ExcelApplication">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelApplication.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelApplication.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelApplication">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelApplication.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelApplication.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelApplication.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.ExcelOleObject">
+            <summary>
+            Capability of an Excel OleObject.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelOleObject"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelOleObject"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelOleObject.ObjectName">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelOleObject.OleType">
+            <summary>
+            Gets the OLE Object Type
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelOleObject.ProgId">
+            <summary>
+            Gets the ProgId
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelOleObject.SourceName">
+            <summary>
+            Gets the Source Name
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.GetOleObject">
+            <summary>
+            Gets the Excel OleObject object instance for this instance of the Excel OleObject.
+            </summary>
+            <returns>The Excel OleObject object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelOleObject.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.op_Implicit(System.String)~Ranorex.ExcelOleObject">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelOleObject.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelOleObject.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelOleObject">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelOleObject.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelOleObject.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelOleObject.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.ExcelRange">
+            <summary>
+            Capability of an Excel Range.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelRange.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelRange"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelRange.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelRange"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelRange.Address">
+            <summary>
+            Gets the Index
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelRange.Name">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelRange.GetExcelRangeObject">
+            <summary>
+            Gets the Excel Range object instance for this instance of the Cell Row or Column.
+            </summary>
+            <returns>The Excel Range object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelRange.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelRange.op_Implicit(System.String)~Ranorex.ExcelRange">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelRange.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelRange.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelRange.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelRange.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelRange">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelRange.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelRange.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelRange.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.ExcelShape">
+            <summary>
+            Capability of an Excel Shape.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelShape.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelShape"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelShape.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelShape"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelShape.AlternativeText">
+            <summary>
+            Gets the AlternativeText
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.AutoShapeType">
+            <summary>
+            Gets the AutoShapeType
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.ControlFormatValue">
+            <summary>
+            Gets the Value for the ControlFormat.Value property
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.FormControlType">
+            <summary>
+            Gets the FormControlType
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.Name">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.ObjectProgId">
+            <summary>
+            Gets the OLE Object Type for the OLEFormat.ProgId property 
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.Placement">
+            <summary>
+            Gets the Placement
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.Type">
+            <summary>
+            Gets the ShapeType
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelShape.ZOrderPosition">
+            <summary>
+            Gets the ZOrderPosition
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelShape.GetExcelShapeObject">
+            <summary>
+            Gets the Excel Shape object instance for this instance of the Excel Shape.
+            </summary>
+            <returns>The Excel Shape object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelShape.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelShape.op_Implicit(System.String)~Ranorex.ExcelShape">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelShape.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelShape.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelShape.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelShape.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelShape">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelShape.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelShape.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelShape.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.ExcelWorkBook">
+            <summary>
+            Capability of an Excel WorkBook.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelWorkBook"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelWorkBook"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.CodeName">
+            <summary>
+            Gets the code name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.FullName">
+            <summary>
+            Gets the full name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.FullNameURLEncoded">
+            <summary>
+            Gets the FullNameURLEncoded value
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.IsReadOnly">
+            <summary>
+            Gets the readonly value
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.Name">
+            <summary>
+            Gets the name
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.Path">
+            <summary>
+            Gets the file path
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.Saved">
+            <summary>
+            Gets the Saved value
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.GetExcelWorkBookObject">
+            <summary>
+            Gets the Excel Workbook object instance for this instance of the Excel WorkBook.
+            </summary>
+            <returns>The Excel Workbook object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelWorkBook.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.op_Implicit(System.String)~Ranorex.ExcelWorkBook">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelWorkBook.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelWorkBook.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelWorkBook">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelWorkBook.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkBook.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelWorkBook.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.ExcelWorkSheet">
+            <summary>
+            Capability of an Excel WorkSheet.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelWorkSheet"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.ExcelWorkSheet"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelWorkSheet.Index">
+            <summary>
+            Gets the Index
+            </summary>
+        </member>
+        <member name="P:Ranorex.ExcelWorkSheet.Name">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.GetExcelWorkSheetObject">
+            <summary>
+            Gets the Worksheet object instance for this instance of Excel.
+            </summary>
+            <returns>The Worksheet object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.ExcelWorkSheet.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.op_Implicit(System.String)~Ranorex.ExcelWorkSheet">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelWorkSheet.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The ExcelWorkSheet.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.op_Implicit(Ranorex.Core.Element)~Ranorex.ExcelWorkSheet">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelWorkSheet.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.ExcelWorkSheet.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The ExcelWorkSheet.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.WordApplication">
+            <summary>
+            Capability of an Word Application.
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordApplication.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.WordApplication"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordApplication.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.WordApplication"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.WordApplication.Caption">
+            <summary>
+            Gets the Caption
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordApplication.Name">
+            <summary>
+            Gets the Name
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordApplication.Version">
+            <summary>
+            Gets the Version
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordApplication.GetWordApplicationObject">
+            <summary>
+            Gets the Word Application object instance for this instance of Word.
+            </summary>
+            <returns>The Word Application object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.WordApplication.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordApplication.op_Implicit(System.String)~Ranorex.WordApplication">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The WordApplication.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordApplication.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The WordApplication.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordApplication.op_Implicit(Ranorex.Core.Element)~Ranorex.WordApplication">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The WordApplication.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordApplication.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The WordApplication.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.WordDocument">
+            <summary>
+            Capability of an Word Document.
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordDocument.#ctor">
+            <summary>
+            Creates a new <see cref="T:Ranorex.WordDocument"/> adapter instance. This constructor is used
+            internally by the Ranorex Core Framework for performance issues!
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordDocument.#ctor(Ranorex.Core.Element)">
+            <summary>
+            Creates a new <see cref="T:Ranorex.WordDocument"/> adapter instance.
+            </summary>
+            <param name="element">The element to create the adapter for.</param>
+            <exception cref="T:System.NullReferenceException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="P:Ranorex.WordDocument.CodeName">
+            <summary>
+            Gets the code name
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordDocument.FullName">
+            <summary>
+            Gets the full name
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordDocument.IsReadOnly">
+            <summary>
+            Gets the readonly value
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordDocument.Name">
+            <summary>
+            Gets the name
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordDocument.Path">
+            <summary>
+            Gets the file path
+            </summary>
+        </member>
+        <member name="P:Ranorex.WordDocument.Saved">
+            <summary>
+            Gets the Saved value
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordDocument.GetWordDocumentObject">
+            <summary>
+            Gets the Word Document object instance for this instance of Word.
+            </summary>
+            <returns>The Word Document object instance.</returns>
+            <exception cref="T:Ranorex.ActionFailedException">Thrown if invoking the action failed.</exception>
+        </member>
+        <member name="P:Ranorex.WordDocument.RequiredCapabilities">
+            <summary>
+            Capabilities required by the adapter implementation.
+            </summary>
+        </member>
+        <member name="M:Ranorex.WordDocument.op_Implicit(System.String)~Ranorex.WordDocument">
+            <summary>
+            Implicitly converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The WordDocument.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordDocument.FromPath(System.String)">
+            <summary>
+            Converts a string to an instance of this class by searching the root.
+            </summary>
+            <param name="path">The search path.</param>
+            <returns>The WordDocument.</returns>
+            <remarks>The <see cref="P:Ranorex.Adapter.DefaultSearchTimeout"/> is used to search for the specified path.</remarks>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="path"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.RxPathException">If the specified <paramref name="path"/> is not valid.</exception>
+            <exception cref="T:Ranorex.ElementNotFoundException">If no element is found.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordDocument.op_Implicit(Ranorex.Core.Element)~Ranorex.WordDocument">
+            <summary>
+            Implicitly converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The WordDocument.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="M:Ranorex.WordDocument.FromElement(Ranorex.Core.Element)">
+            <summary>
+            Converts an <see cref="T:Ranorex.Core.Element"/> to an instance of this class.
+            </summary>
+            <param name="element">The element to convert.</param>
+            <returns>The WordDocument.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="element"/> is <c>null</c>.</exception>
+            <exception cref="T:Ranorex.CapabilityNotSupportedException">If the element does not support the
+            capabilities required by this adapter.</exception>
+        </member>
+        <member name="T:Ranorex.Core.Data.ExcelDataConnector">
+            <summary>
+            Provides access to data in an Excel file.
+            </summary>
+            <remarks>Microsoft Excel needs to be installed in order to use this source.</remarks>
+        </member>
+        <member name="F:Ranorex.Core.Data.ExcelDataConnector.FactorySerializationKey">
+            <summary>
+            The unique key for serialization and factory creation (see <see cref="P:Ranorex.Core.Data.ExcelDataConnector.XmlIdentifier"/>).
+            </summary>
+        </member>
+        <member name="F:Ranorex.Core.Data.ExcelDataConnector.AutoRangeLocalizedString">
+            <summary>
+            Translation of AutoRange property for UI Localization
+            </summary>
+        </member>
+        <member name="F:Ranorex.Core.Data.ExcelDataConnector.AutoRange">
+            <summary>
+            Special constant value which needs to be saved into the xml to automaticly calculate the range of excel data
+            </summary>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.#ctor(Ranorex.Libs.Xml.XmlNode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ranorex.Core.Data.ExcelDataConnector"/> class.
+            </summary>
+            <param name="node">An XML node containing the definition of the source.</param>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.#ctor(System.String,System.String,System.String,System.String,System.Windows.Forms.CheckState)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ranorex.Core.Data.ExcelDataConnector"/> class.
+            </summary>
+            <param name="name">The name of the source.</param>
+            <param name="fileName">The name of the file.</param>
+            <param name="worksheetName">The initial value of the <see cref="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetName"/> property.</param>
+            <param name="worksheetRange">The initial value of the <see cref="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetRange"/> property.</param>
+            <param name="includeFile">The initial value of the <see cref="P:Ranorex.Core.Data.ExcelDataConnector.IncludeFile"/> property.</param>
+        </member>
+        <member name="P:Ranorex.Core.Data.ExcelDataConnector.XmlIdentifier">
+            <summary>
+            Gets the unique identifier for serialization and deserialization purposes as well as factory creation.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetName">
+            <summary>
+            Gets or sets the name of the worksheet.
+            </summary>
+            <value>The name of the worksheet.</value>
+        </member>
+        <member name="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetRange">
+            <summary>
+            Gets or sets the worksheet range.
+            </summary>
+            <value>The worksheet range, e.g. 'A1:X20'.</value>
+        </member>
+        <member name="P:Ranorex.Core.Data.ExcelDataConnector.IncludeFile">
+            <summary>
+            Gets or sets a value specifying whether the file should be included
+            into the associated project.
+            </summary>
+            <value>
+            A value specifying whether to include the file into the associated project.
+            </value>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.IsWorkSheetValid(System.String,System.String)">
+            <summary>
+            Determines whether the specified <paramref name="workSheetName"/> is a valid work sheet
+            in the specified <paramref name="workbookFilename"/>.
+            </summary>
+            <param name="workbookFilename">The file name of the workbook to inspect.</param>
+            <param name="workSheetName">The work sheet to check.</param>
+            <returns>
+                <c>true</c> if the specified <paramref name="workSheetName"/> is a valid work sheet
+            in the specified <paramref name="workbookFilename"/>; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.IsWorkBookValid(System.String)">
+            <summary>
+            Determines whether the specified <paramref name="workbookFilename"/> is a valid work book.
+            </summary>
+            <param name="workbookFilename">The file name of the workbook to inspect.</param>
+            <returns>
+                <c>true</c> if the specified <paramref name="workbookFilename"/> is a valid work book  otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.IsRangeValid(System.String,System.String,System.String)">
+            <summary>
+            Determines whether the specified <paramref name="range"/> is a valid range
+            in the specified <paramref name="workSheetName"/> in the work book <paramref name="workbookFilename"/>.
+            </summary>
+            <param name="workbookFilename">The file name of the workbook to inspect.</param>
+            <param name="workSheetName">The work sheet to inspect.</param>
+            <param name="range">The range to check.</param>
+            <returns>
+                <c>true</c> if the specified <paramref name="range"/> is a valid range
+            in the specified <paramref name="workSheetName"/> in the work book
+            <paramref name="workbookFilename"/>; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.IsExcelInstalled">
+            <summary>
+            Determines whether Microsoft Excel is installed on this machine.
+            </summary>
+            <returns>
+                <c>true</c> if Microsoft Excel is installed on this machine; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.GetWorkSheetRangeNames(System.String,System.String,System.Boolean)">
+            <summary>
+            Gets a list of valid ranges from the specified the work sheet.
+            </summary>
+            <param name="workbookFilename">The file name of the workbook to inspect.</param>
+            <param name="workSheetName">The work sheet to inspect.</param>
+            <param name="searchForEffective">If set to <c>true</c> adds effective ranges to the list.</param>
+            <returns>A list of valid ranges from the specified the work sheet.</returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.GetWorkSheetNames(System.String)">
+            <summary>
+            Gets a list containing the work sheet names of the specified <paramref name="workbookFilename"/>.
+            </summary>
+            <param name="workbookFilename">The file name of the workbook to inspect.</param>
+            <returns>A list containing the work sheet names of the specified <paramref name="workbookFilename"/></returns>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.GetWorkbookContext(System.String)">
+            <summary>
+            This method is used internally to get a disposable workbook context. It is not intended for to be used in your code.
+            </summary>
+            <param name="filename">The filename of the workbook.</param>
+            <returns>A disposable IWorkbookContext.</returns>
+            <exception cref="T:System.Exception">Any exception thrown by excel.</exception>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.CloseWorkBook(Ranorex.Core.Data.IWorkbookContext)">
+            <summary>
+            Closes the workbook wrapped by the IWorkbookContext
+            </summary>
+            <param name="workbookContext">The context of the Workbook to close.</param>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.GetXMLNodeDerived(Ranorex.Libs.Xml.XmlNode)">
+            <summary>
+            Add DataSource specific information from derived classes to the node
+            </summary>
+            <param name="node">The node to which information should be added.</param>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.LoadColumnsImpl(Ranorex.Core.Data.ColumnCollection@)">
+            <summary>
+            Loads the data columns from the source.
+            </summary>
+            <param name="columns">The loaded columns.</param>
+            <remarks>This method tries to load the first row in the <see cref="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetRange"/>, only.</remarks>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.LoadColumnsImpl(Ranorex.Core.Data.ColumnCollection@,System.Int32@)">
+            <summary>
+            Loads the data columns and number of rows from the source.
+            </summary>
+            <param name="columns">The loaded columns.</param>
+            <param name="rowCount">The number of rows.</param>
+            <remarks>This method tries to load the first row in the <see cref="P:Ranorex.Core.Data.ExcelDataConnector.WorksheetRange"/>, only,
+            and calculates the number of rows by taking the range into account.</remarks>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(Ranorex.Core.Data.ColumnCollection@,Ranorex.Core.Data.RowCollection@)">
+            <summary>
+            Loads the data from the source.
+            </summary>
+            <param name="columns">The loaded columns.</param>
+            <param name="rows">The loaded rows.</param>
+        </member>
+        <member name="M:Ranorex.Core.Data.ExcelDataConnector.StoreDataImpl(Ranorex.Core.Data.ColumnCollection,Ranorex.Core.Data.RowCollection)">
+            <summary>
+            Stores the data to the data source. Currently not supported.
+            </summary>
+            <param name="columns">The columns to store.</param>
+            <param name="rows">The rows to store.</param>
+            <remarks>This functionality is currently not supported by this data source.</remarks>
+            <exception cref="T:System.NotSupportedException">Storing data to SQL databases is currently not supported.</exception>
+        </member>
+        <member name="T:Ranorex.Core.Data.IWorkbookContext">
+            <summary>
+            A disposable context for a work book to help ensure that the COM objects get released.
+            </summary>
+        </member>
+        <member name="P:Ranorex.Core.Data.IWorkbookContext.FileName">
+            <summary>
+            Gets the file name of the workbook for the this IWorkbookContext instance.
+            </summary>
+            <returns>The workbook filename.</returns>
+        </member>
+        <member name="P:Ranorex.Core.Data.IWorkbookContext.Workbook">
+            <summary>
+            Gets the ExcelWorkBook instance for this IWorkbookContext.
+            </summary>
+            <returns>The ExcelWorkBook.</returns>
+        </member>
+        <member name="M:Ranorex.Plugin.ExcelWorkBookRule.Execute(Ranorex.Core.GlueRuleExecutionState)">
+            <param name="state">The current rule execution state.</param>
+        </member>
+        <member name="M:Ranorex.Plugin.ExcelWorkSheetRule.Execute(Ranorex.Core.GlueRuleExecutionState)">
+            <param name="state">The current rule execution state.</param>
+        </member>
+        <member name="M:Ranorex.Plugin.WordDocumentRule.Execute(Ranorex.Core.GlueRuleExecutionState)">
+            <param name="state">The current rule execution state.</param>
+        </member>
+        <member name="T:Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.AutoRangeText">
+            <summary>
+              Looks up a localized string similar to Auto-range.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.ExcelApp">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.ExcelWorkBook">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.FailedToInitWorkbook">
+            <summary>
+              Looks up a localized string similar to Failed to initialize Workbook..
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.WordApp">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Properties.Resources.WordDoc">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

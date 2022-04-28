@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="65802"
+		type="root"
+		rid="e8459e008e67a5"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="zeyne"
+		rxversion="10.1.7.0"
+		host="DESKTOP-E1ASG9D"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="28.04.2022 17:48:18"
+		timestampiso="2022-04-28T14:48:18"
+		endtime="28.04.2022 17:49:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording5">
+		<detail>
+			Recording5
+		</detail>
+		<errormessage>
+			Failed to find item 'RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.MiTVStick1080PAndroidTVMediaPlaye'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.781"
+			timeRelativeToTestModuleStartTime="00:04.781"
+			timeWallClock="17:48:23"
+			time="00:04.781"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_cec10fa3\Recordin_cec10fa3_036b7bda_trace.jpg"
+			errthumb="images_Recordin_cec10fa3\Recordin_cec10fa3_036b7bda_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.MiTVStick1080PAndroidTVMediaPlaye' at 140;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div[2]/div[2]/article[4]/div/div/div[3]/?/?/div[@title>'Mi TV Stick 1080P Android']/a[@href>'https://www.trendyol.com/']/div[2]/div[1]/span[@innertext>'Mi TV Stick 1080P Android']"
+				itempath=".//div[#'browsing-gw-homepage']/div/div[2]/div[2]/article[4]/div/div/div[3]/?/?/div[@title>'Mi TV Stick 1080P Android']/a[@href>'https://www.trendyol.com/']/div[2]/div[1]/span[@innertext>'Mi TV Stick 1080P Android']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.MiTVStick1080PAndroidTVMediaPlaye"
+				id="330461e9b097455085278494276a9142"
+				timeout="60000"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording5.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.854"
+			timeRelativeToTestModuleStartTime="01:04.854"
+			timeWallClock="17:49:23"
+			time="01:04.854"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_cec10fa3\Recordin_cec10fa3_2f80ff6c_trace.jpg"
+			errthumb="images_Recordin_cec10fa3\Recordin_cec10fa3_2f80ff6c_trace_thumb.jpg">
+			<message>
+				Item 'MiTVStick1080PAndroidTVMediaPlaye' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording5.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.675"
+			timeRelativeToTestModuleStartTime="01:05.675"
+			timeWallClock="17:49:24"
+			time="01:05.675"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_cec10fa3\Recordin_cec10fa3_8f55cfe7_trace.jpg"
+			errthumb="images_Recordin_cec10fa3\Recordin_cec10fa3_8f55cfe7_trace_thumb.jpg">
+			<message>
+				Failed to find item 'RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.MiTVStick1080PAndroidTVMediaPlaye'.<br/>No element found for path '/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div[2]/div[2]/article[4]/div/div/div[3]/?/?/div[@title&gt;'Mi TV Stick 1080P Android']/a[@href&gt;'https://www.trendyol.com/']/div[2]/div[1]/span[@innertext&gt;'Mi TV Stick 1080P Android']' at step 'descendant-or-self::div[#'browsing-gw-homepage']' after 36 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: RanorexTestAutomationTrendyol.RanorexTestAutomationTrendyolRepositoryFolders.ApplicationUnderTestAppFolder.get_MiTVStick1080PAndroidTVMediaPlaye() C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyolRepository.cs içinde: satır 1102&#13;&#10;   konum: RanorexTestAutomationTrendyol.Recording5.Ranorex.Core.Testing.ITestModule.Run() C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording5.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\zeyne\Documents\Ranorex\RanorexStudio Projects\RanorexTestAutomationTrendyol\RanorexTestAutomationTrendyol\Recording5.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div[2]/div[2]/article[4]/div/div/div[3]/?/?/div[@title>'Mi TV Stick 1080P Android']/a[@href>'https://www.trendyol.com/']/div[2]/div[1]/span[@innertext>'Mi TV Stick 1080P Android']"
+				itempath=".//div[#'browsing-gw-homepage']/div/div[2]/div[2]/article[4]/div/div/div[3]/?/?/div[@title>'Mi TV Stick 1080P Android']/a[@href>'https://www.trendyol.com/']/div[2]/div[1]/span[@innertext>'Mi TV Stick 1080P Android']"
+				fullname="RanorexTestAutomationTrendyolRepository.ApplicationUnderTest.MiTVStick1080PAndroidTVMediaPlaye"
+				id="330461e9b097455085278494276a9142"
+				timeout="60000"
+				failedStep="descendant-or-self::div[#'browsing-gw-homepage']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

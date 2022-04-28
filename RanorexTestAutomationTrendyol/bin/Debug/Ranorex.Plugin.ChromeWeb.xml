@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ranorex.Plugin.ChromeWeb</name>
+    </assembly>
+    <members>
+        <member name="P:Ranorex.Plugin.ChromeWebFlavor.Instance">
+            <summary>
+            Gets the local instance of this flavor.
+            </summary>
+        </member>
+    </members>
+</doc>
